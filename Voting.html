@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="Voting.css">
+</head>
+<body>
+
+    <ul>
+        <a href="Home Page.html"><img id="home" src="Home icon.jpg"></a>
+        
+      </ul>
+    <div class="container">
+        <center><h1>University Elections</h1></center>
+        <form id="votingForm">
+            <h2>Select a Party:</h2>
+            <label>
+                <input type="radio" name="candidate" value="PUSU"><img src="PUSU.jpg"> <b id="p1">PUSU</b>
+            </label><br><br>
+            <label>
+                <input type="radio" name="candidate" value="NSUI"><img src="NSUI.jpg"> <b id="p2">NSUI</b>
+            </label><br><br>
+            <label>
+                <input type="radio" name="candidate" value="SOI"><IMG src="SOI.jpg"> <b id="p3">SOI</b>
+            </label><br><br>
+            <center><button type="submit" onclick="show();">Vote</button></center>
+            <div id="count"></div>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Thank you for Voting!!</h2>
+            <p id="voteResult"></p>
+            
+        
+        </div>
+    </div>
+    <div class="footer">
+  <p>© 2024 OnlineVotingInc. | <a href="/privacy-policy">Privacy</a> | <a href="/terms">Terms</a></p>
+  <p><a href="/contact">Support</a> | <a href="/faq">FAQ</a></p>
+      </div>
+      
+      
+
+    <script src="Voting.js"></script>
+</body>
+</html>
+

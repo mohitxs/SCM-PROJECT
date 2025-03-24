@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background: linear-gradient(135deg, #e59400, #6a00f4);
+    margin-top:0px;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+.container {
+    width: 600px;
+    max-height:680px;
+    margin:auto;
+    background-color:#eaf1d8 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 23px;
+    left: 400px;
+    
+    
+     
+}
+
+.hidden {
+    display: none;
+}
+body a{
+    color: aqua;
+    
+
+}
+body li{
+    color: aliceblue;
+    
+}
+.footer {
+    position:relative;
+    right:28px;
+    top: 560px;
+    width: 100%;
+    background-color:#eaf1d8 ;
+    color: white;
+    text-align: center;
+    color: black;
+   
+
+}
+.footer a{
+    color: black;
+}
+button {
+    width: 100px;   
+    height: 40px;   
+    font-size: 20px;
+    
+    
+     
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+img{
+  height: 70px;
+  width: 70px;
+  mix-blend-mode: color-burn;
+}
+
+#p1{
+    position: absolute;
+    top:170px;
+    left: 120px;
+    
+}
+#p2{
+    position: absolute;
+    top:270px;
+    left: 120px;
+}
+#p3{
+    position: absolute;
+    top:360px;
+    left:120px;
+}
+
+#home{
+    width: 100px;
+    height: 100px;
+
+
+}
